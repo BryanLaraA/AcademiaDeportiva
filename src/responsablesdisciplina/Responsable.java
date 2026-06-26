@@ -14,8 +14,8 @@ public class Responsable {
     private String especialidad;
     private int experiencia;
 
-    public Responsable(String especialidad, int experiencia,int identificacion, String nombrecompleto, LocalDate fechadenacimiento, int telefono) {
-        super(int identificacion, String nombrecompleto, LocalDate fechadenacimiento, int telefono)
+    public Responsable(String especialidad, int experiencia,int identificacion, String nombrecompleto, LocalDate fechadenacimiento, int telefono, Diciplina diciplina) {
+        super(identificacion, nombrecompleto, fechadenacimiento, telefono, diciplina);
         this.especialidad = especialidad;
         this.experiencia = experiencia;
     }
