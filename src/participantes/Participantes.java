@@ -20,5 +20,12 @@ public class Participantes extends Persona {
     public Participantes(int identificacion, String nombrecompleto, LocalDate fechadenacimiento, int telefono) {
         super(identificacion, nombrecompleto, fechadenacimiento, telefono);
     }
+
+    @Override
+    public String toString() {
+        return "Participantes{" + "diciplina=" + diciplina + '}';
+    }
+    
+    
     
 }
