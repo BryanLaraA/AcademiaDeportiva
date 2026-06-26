@@ -4,6 +4,8 @@
  */
 package responsablesdisciplina;
 
+import java.time.LocalDate;
+
 /**
  *
  * @author Student
@@ -12,7 +14,8 @@ public class Responsable {
     private String especialidad;
     private int experiencia;
 
-    public Responsable(String especialidad, int experiencia) {
+    public Responsable(String especialidad, int experiencia,int identificacion, String nombrecompleto, LocalDate fechadenacimiento, int telefono) {
+        super(int identificacion, String nombrecompleto, LocalDate fechadenacimiento, int telefono)
         this.especialidad = especialidad;
         this.experiencia = experiencia;
     }
