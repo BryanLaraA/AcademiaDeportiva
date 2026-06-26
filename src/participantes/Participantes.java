@@ -2,13 +2,15 @@ package participantes;
 import persona.Persona;
 import java.time.LocalDate;
 
+import disciplinas.Disciplina;
+
 public class Participantes extends Persona {
     
     private int identificacion;
     private String nombrecompleto;
     private LocalDate fechadenacimiento;
     private int telefono;
-    private Diciplina diciplina;
+    private Disciplina diciplina;
 
     public int getIdentificacion() {
         return identificacion;
@@ -26,7 +28,7 @@ public class Participantes extends Persona {
         return telefono;
     }
 
-    public Diciplina getDiciplina() {
+    public Disciplina getDiciplina() {
         return diciplina;
     }
 
@@ -34,7 +36,7 @@ public class Participantes extends Persona {
         this.telefono = telefono;
     }
 
-    public void setDiciplina(Diciplina diciplina) {
+    public void setDiciplina(Disciplina diciplina) {
         this.diciplina = diciplina;
     }
     
