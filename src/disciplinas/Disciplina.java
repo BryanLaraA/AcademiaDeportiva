@@ -4,7 +4,6 @@
  */
 package disciplinas;
 
-import participantes.Participantes;
 
 
 /**
@@ -12,34 +11,5 @@ import participantes.Participantes;
  * @author Student
  */
 public class Disciplina extends Participantes {
-    private Categoria categoria;
-    private int capMaxima;
-
-    public double getNombre() {
-        return nombre;
-    }
-
-    public Categoria getCategoria() {
-        return categoria;
-    }
-
-    public int getCapMaxima() {
-        return capMaxima;
-    }
-
-    public void setNombre(double nombre) {
-        this.nombre = nombre;
-    }
-
-    public void setCategoria(Categoria categoria) {
-        this.categoria = categoria;
-    }
-
-    public Disciplina(Categoria categoria, int capMaxima) {
-        this.categoria = categoria;
-        this.capMaxima = capMaxima;
-    }
-
-    
     
 }
