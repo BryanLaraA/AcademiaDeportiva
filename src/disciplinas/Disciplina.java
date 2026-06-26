@@ -4,12 +4,14 @@
  */
 package disciplinas;
 
+import participantes.Participantes;
+
+
 /**
  *
  * @author Student
  */
-public class Disciplina {
-    private double nombre; 
+public class Disciplina extends Participantes {
     private Categoria categoria;
     private int capMaxima;
 
@@ -33,17 +35,11 @@ public class Disciplina {
         this.categoria = categoria;
     }
 
-    public Disciplina(double nombre, Categoria categoria, int capMaxima) {
-        this.nombre = nombre;
+    public Disciplina(Categoria categoria, int capMaxima) {
         this.categoria = categoria;
         this.capMaxima = capMaxima;
     }
 
-    @Override
-    public String toString() {
-        return "Disciplina{" + "nombre=" + nombre + ", categoria=" + categoria + ", capMaxima=" + capMaxima + '}';
-    }
-    
     
     
 }
