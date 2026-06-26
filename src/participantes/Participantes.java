@@ -1,7 +1,6 @@
 package participantes;
 import persona.Persona;
 import java.time.LocalDate;
-
 import disciplinas.Disciplina;
 
 public class Participantes extends Persona {
@@ -40,6 +39,8 @@ public class Participantes extends Persona {
         this.diciplina = diciplina;
     }
     
-    
+    public Participantes(int identificacion, String nombrecompleto, LocalDate fechadenacimiento, int telefono) {
+        super(identificacion, nombrecompleto, fechadenacimiento, telefono);
+    }
     
 }
