@@ -29,6 +29,23 @@ public abstract class Persona {
     public void setTelefono(int telefono) {
         this.telefono = telefono;
     }
+
+    public Persona(int identificacion, String nombrecompleto, LocalDate fechadenacimiento, int telefono) {
+        this.identificacion = identificacion;
+        this.nombrecompleto = nombrecompleto;
+        this.fechadenacimiento = fechadenacimiento;
+        this.telefono = telefono;
+    }
+
+    @Override
+    public String toString() {
+        return "Persona{" + "identificacion=" 
+                + identificacion + ", nombrecompleto=" 
+                + nombrecompleto + ", fechadenacimiento=" 
+                + fechadenacimiento + ", telefono=" 
+                + telefono + '}';
+    }
      
+    
     
 }
