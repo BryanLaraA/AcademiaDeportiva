@@ -1,13 +1,34 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package persona;
 
-/**
- *
- * @author bryan
- */
+package persona;
+import java.time.LocalDate;
+
+
 public class Persona {
+    
+    private int identificacion;
+    private String nombrecompleto;
+    private LocalDate fechadenacimiento;
+    private int telefono;
+
+    public int getIdentificacion() {
+        return identificacion;
+    }
+
+    public String getNombrecompleto() {
+        return nombrecompleto;
+    }
+
+    public LocalDate getFechadenacimiento() {
+        return fechadenacimiento;
+    }
+
+    public int getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(int telefono) {
+        this.telefono = telefono;
+    }
+     
     
 }
