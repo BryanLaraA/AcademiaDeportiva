@@ -3,12 +3,12 @@ package persona;
 import java.time.LocalDate;
 
 
-public class Persona {
+public abstract class Persona {
     
-    private int identificacion;
-    private String nombrecompleto;
-    private LocalDate fechadenacimiento;
-    private int telefono;
+    protected int identificacion;
+    protected String nombrecompleto;
+    protected LocalDate fechadenacimiento;
+    protected int telefono;
 
     public int getIdentificacion() {
         return identificacion;
